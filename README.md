@@ -1,1 +1,1 @@
-# Orario_Marconi
+Una volta scaricato il file 'main', la cartella 'funzioni' e la cartella 'file', avviando il file 'main.py' verranno eseguite le funzioni automaticamente una dopo l'altra presenti all'interno del file 'Functions.py' che si trova nella cartella funzioni. Verrà aperto il file 'OrarioTabellaGlobale.csv' che si trova all'interno della cartella 'file', cartella nella quale verranno anche creati i file .txt in seguito all'esecuzione delle funzioni.
