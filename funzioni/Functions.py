@@ -117,41 +117,7 @@ def OrarioDocente(docente,dizionario):
 
     file.close()
 
-    #USCITA = False
-    #orario = []
-    #temp = []
-    #file = open(file_dati,'r')
-
-    #while not(USCITA):
-        #r = file.readline().strip().split(',')
-        #if r == SPAZIO:
-            #USCITA = False
-        #else:
-            #if r[0].strip() == docente:
-                #orario.append(str(r[1:]).strip().split('[]'))
-                #temp.append(r[1:])
-                #USCITA = True
-
-
-    #while '   ' in temp:
-        #temp.remove('   ')
-
-    #numero_ore = len(temp)
-
-
-    #scrittura sul file
-    #file.close()
-   
-    #file = open(f".\\file\\Orario{docente}.txt",'w')
-   
-    #for elemento in INDICE_ORARIO:
-        #file.write(str(elemento).strip('[]') + "\n")
-   
-    #file.write(str(orario).strip('[]') + "\n")
-    #file.write(f"Il docente {docente} ha un totale di {numero_ore} in una settimana")
-   
-    #file.close()
-
+    
 def OreADisposizione(docente,dizionario):
     '''
         Questa funzione scrive all'interno del file di testo OreADisposizione_{nome del docente inserito via input}.txt le ore a disposizione di un insegnante.
